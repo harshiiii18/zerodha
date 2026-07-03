@@ -20,7 +20,7 @@ function RightSection({
           </div>
         </div>
         <div className="col-6">
-          <img src={ImageURL} />
+          <img src={ImageURL} alt="description"/>
         </div>
       </div>
     </div>

@@ -170,7 +170,7 @@ function CreateTicket() {
                 {
                   ticket.links.map((link,i)=>(
 
-                    <a href="" key={i}>
+                    <a href="#" key={i} >
                       {link}
                     </a>
 
@@ -226,11 +226,11 @@ function CreateTicket() {
             </h4>
 
 
-            <a>1. Track account opening</a>
-            <a>2. Track segment activation</a>
-            <a>3. Intraday margins</a>
-            <a>4. Kite user manual</a>
-            <a>5. Learn how to create a ticket</a>
+            <a href="#">1. Track account opening</a>
+            <a href="#">2. Track segment activation</a>
+            <a href="#">3. Intraday margins</a>
+            <a href="#">4. Kite user manual</a>
+            <a href="#">5. Learn how to create a ticket</a>
 
 
           </div>
