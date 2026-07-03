@@ -22,6 +22,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+app.get("/", (req, res) => {
+  res.send("Zerodha Backend API is running 🚀");
+});
+
 app.get("/allHoldings", authMiddleware, async (req, res) => {
   let allHoldings = await HoldingsModel.find({
     userId: req.user.id,
