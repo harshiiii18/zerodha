@@ -12,7 +12,6 @@ import NotFound from "./landing_page/NotFound";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
 import Login from "./landing_page/login/Login";
-import ProtectedRoute from "./landing_page/protect/ProtectedRoute";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
