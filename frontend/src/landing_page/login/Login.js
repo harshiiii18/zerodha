@@ -19,7 +19,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/login",
+        "https://zerodha-0pzb.onrender.com/login",
         formData
       );
 
@@ -29,7 +29,7 @@ function Login() {
 
       const token = response.data.token;
 
-      window.location.href = `http://localhost:3002?token=${token}`;
+      window.location.href = `https://zerodha-dashboard-ruby.vercel.app/?token=${token}`;
     } catch (error) {
       alert("Invalid email or password");
     }

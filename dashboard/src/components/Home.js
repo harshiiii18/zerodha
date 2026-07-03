@@ -20,12 +20,12 @@ const Home = () => {
     }
 
     if (!token) {
-      window.location.href = "http://localhost:3000/login";
+      window.location.href = "https://zerodha-ruddy.vercel.app/login";
       return;
     }
 
     axios
-      .get("http://localhost:3001/profile", {
+      .get("https://zerodha-0pzb.onrender.com/profile", {
         headers: {
           Authorization: token,
         },

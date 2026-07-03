@@ -6,7 +6,7 @@ const Positions = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/allPositions", {
+      .get("https://zerodha-0pzb.onrender.com/allPositions", {
         headers: {
           Authorization: localStorage.getItem("token"),
         },

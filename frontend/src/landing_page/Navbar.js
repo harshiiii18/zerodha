@@ -54,7 +54,7 @@ function Navbar() {
 
                 <>
                   <li className="nav-item">
-                    <a href={`http://localhost:3002?token=${localStorage.getItem("token")}`}
+                    <a href={`https://zerodha-dashboard-ruby.vercel.app/?token=${localStorage.getItem("token")}`}
                       className="nav-link active" 
                       
                     >

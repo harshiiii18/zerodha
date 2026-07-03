@@ -20,7 +20,7 @@ function Signup() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/register",
+        "https://zerodha-0pzb.onrender.com/register",
         formData
       );
 

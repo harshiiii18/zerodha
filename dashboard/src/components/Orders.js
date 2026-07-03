@@ -11,7 +11,7 @@ const Orders = () => {
   useEffect(() => {
 
     axios.get(
-      "http://localhost:3001/allOrders",
+      "https://zerodha-0pzb.onrender.com/allOrders",
       {
         headers:{
           Authorization: localStorage.getItem("token")
