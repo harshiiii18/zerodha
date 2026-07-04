@@ -17,15 +17,15 @@ https://zerodha-0pzb.onrender.com
 
 ## Features
 
-- 🔐 JWT Authentication (Login & Signup)
-- 👤 User Registration and Login
-- 📊 Dashboard with Holdings & Positions
-- 📈 Portfolio Management
-- 📦 Order Tracking
-- 💰 Funds Section
-- 📱 Responsive UI
-- ☁️ MongoDB Database
-- 🌐 REST API with Express.js
+- JWT Authentication (Login & Signup)
+- User Registration and Login
+- Dashboard with Holdings & Positions
+- Portfolio Management
+- Order Tracking
+- Funds Section
+- Responsive UI
+- MongoDB Database
+- REST API with Express.js
 
 ---
 
