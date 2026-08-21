@@ -2,19 +2,6 @@
 
 A full-stack stock trading platform, built using the MERN stack. The application includes secure authentication, portfolio management, holdings, order tracking, and a responsive user interface.
 
-## Live Demo
-
-### Frontend
-https://zerodha-ruddy.vercel.app
-
-### Dashboard
-https://zerodha-dashboard.vercel.app
-
-### Backend API
-https://zerodha-0pzb.onrender.com
-
----
-
 ## Features
 
 - JWT Authentication (Login & Signup)
